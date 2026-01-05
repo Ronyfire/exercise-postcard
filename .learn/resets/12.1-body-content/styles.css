@@ -1,0 +1,45 @@
+/*fondo negro*/
+body {
+	background: black;
+}
+/*margenes*/
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+/*Postal*/
+.postcard {
+	background: white;
+	margin: auto;
+	height: 300px;
+	width: 400px;
+}
+/*encabezado Postal*/
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	height: 50px;
+	padding: 0%;
+	margin: 0%;
+}
+/*body Postal*/
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding-block-end: 0%;
+}
+input {
+	border: none;
+	border-bottom: 1px linen grey;
+}

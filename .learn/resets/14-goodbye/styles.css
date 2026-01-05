@@ -1,0 +1,72 @@
+/*fondo negro*/
+body {
+	background: black;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*Postal*/
+.postcard {
+	background: white;
+	margin: auto;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+}
+/*encabezado Postal*/
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	height: 50px;
+	padding: 0%;
+	margin: 0%;
+	font-family: "handlee", "cursive";
+	font-weight: bold;
+}
+/*body Postal*/
+.postcard-body {
+	display: flex;
+	justify-content: center;
+}
+.body-left p:first-child {
+	margin-top: 1%;
+	border: 3px;
+	text-align: center;
+}
+.t1 {
+	margin: 5px;
+	font-family: "handlee", "cursive";
+	font-weight: lighter;
+}
+.t2 {
+	font-family: "handlee", "cursive";
+	font-weight: lighter;
+}
+.body-left,
+.body-right {
+	width: 50%;
+	padding: 0%;
+}
+input {
+	border: none;
+	border-bottom: 0.5px solid grey;
+	width: 95%;
+	font-family: "handlee", "cursive";
+	font-weight: bold;
+}
+
+/*boton Postcard*/
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: gray;
+	padding: 5px;
+}
