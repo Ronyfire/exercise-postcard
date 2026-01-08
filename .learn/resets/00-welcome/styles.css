@@ -5,30 +5,30 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "HandLee", "cursive";
-	margin: 0;
 }
 /*Postal*/
 .postcard {
 	background: white;
-	height: 310px;
-	width: 410px;
-	padding: 10px;
 	margin: auto;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
 }
 /*encabezado Postal*/
 .postcard-header {
 	display: flex;
 }
 .postcard-header img {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 }
 .postcard-header h1 {
 	width: 350px;
 	height: 50px;
 	padding: 0%;
-	font-size: 30px;
+	margin: 0%;
+	font-family: "handlee", "cursive";
+	font-weight: bold;
 }
 /*body Postal*/
 .postcard-body {
@@ -36,20 +36,30 @@ body {
 	justify-content: center;
 }
 .body-left p:first-child {
-	margin-top: 0;
+	margin-top: 1%;
+	border: 3px;
+	text-align: center;
+}
+.t1 {
+	margin: 5px;
+	font-family: "handlee", "cursive";
+	font-weight: lighter;
+}
+.t2 {
+	font-family: "handlee", "cursive";
+	font-weight: lighter;
 }
 .body-left,
 .body-right {
 	width: 50%;
-	padding: 1px;
+	padding: 0%;
 }
 input {
 	border: none;
 	border-bottom: 0.5px solid grey;
 	width: 95%;
-	font-family: "Handlee", "cursive";
-	font-weight: lighter;
-	font-size: 18px;
+	font-family: "handlee", "cursive";
+	font-weight: bold;
 }
 
 /*boton Postcard*/
@@ -57,6 +67,6 @@ input {
 	text-align: center;
 }
 button {
-	background: rgb(199, 199, 199);
-	padding: 2px;
+	background: gray;
+	padding: 5px;
 }
